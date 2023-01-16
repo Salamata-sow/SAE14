@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+        <link rel="canonical" href="https://themes.getbootstrap.com/preview/" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Preview - Bootstrap Themes" />
+        <meta property="og:url" content="https://themes.getbootstrap.com/preview/" />
+        <meta property="og:site_name" content="Bootstrap Themes" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Preview - Bootstrap Themes" />
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text></svg>">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        {# Run `composer require symfony/webpack-encore-bundle` to start using Symfony UX #}
+        {% block stylesheets %}
+            <link rel= "stylesheet" href="https://bootswatch.com/5/quartz/bootstrap.min.css">
+            <link rel="stylesheet" href={{asset('')}}>
+            
+            {{ encore_entry_link_tags('app') }}
+        {% endblock %}
+
+        {% block javascripts %}
+          <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+         
+            {{ encore_entry_script_tags('app') }}
+        {% endblock %}
+    </head>
+    <body>
+        <style>
+            body{
+                background-image:url(https://fr.freepik.com/vecteurs-premium/connexion-reseau-globale_4173672.htm);
+                background-repeat:no-repeat;
+                background-size: 100%;
+            }
+            /*définition du style pour le pied  de page*/
+            footer{
+                background-color:#333333;
+                color: #ffffff;
+                padding:1em;
+                texte-align: center;
+            }
+            .redressed {
+                font-family: 'Redressed', cursive;
+                font-size: 1,5%;
+            }
+
+            .merriweather {
+                font-family: 'Merriweather', serif;
+            }
+
+            .cc-navbar {
+                background-color: rgba(0, 0, 0, 0.55);
+                font-family: 'Merriweather', serif;
+                z-index: 99;
+            }
+
+            .cc-navbar .nav-link {
+                border-bottom: 1px solid transparent;
+                transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
+            }
+
+            .cc-navbar .nav-link:hover {
+                padding-bottom: 20px;
+                border-bottom-color: var(--bs-teal);
+            }
+
+            .banner,
+            .order-form {
+                background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../public/IMAGE/images.jpg') center center fixed no-repeat;
+                background-size: cover;
+                height: 800px;
+            }
+
+            .order-form {
+                height: 500px;
+            }
+
+            .banner .banner-desc h1 {
+                font-size: 48px;
+                font-weight: 400;
+            }
+
+            .cc-m {
+                background-size: cover;
+                height: 1200px;
+            }
+
+            .btn-order {
+                color: var(--bs-teal);
+                border-color: var(--bs-teal);
+                transition: 0.5s;
+            }
+
+            .btn-order:hover,
+            .btn-order:focus,
+            .btn-order:active {
+                background-color: var(--bs-teal);
+                color:rgb(52, 54, 136);
+            }
+            .ro{
+                text-align: center;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            
+                
+	    </style>
+        <nav class="cc-navbar navbar navbar-expand-lg navbar-dark position-fixed w-100">
+			<div class="container-fluid">
+				<a class="navbar-brand text-uppercase mx-4 py-3 fw-bolder">Welcome</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+						<li class="nav-item pe-4">
+							<a class="nav-link active" aria-current="page" href="/salamata/portfolio">Home</a>
+						</li>
+						<li class="nav-item pe-4">
+							<a class="nav-link" href="/salamata/portfolio/MYEportfolio">E.portfolio</a>
+						</li>
+						<li class="nav-item pe-4">
+							<a class="nav-link" href="/salamata/portfolio/formulaire">Formulaire</a>
+						</li>
+						<li class="nav-item pe-4">
+							<a class="btn btn-order rounded-0" href="/salamata/portfolio/monCV">Curriculum_Vitae</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav><br><br><br>
+		<section class="cc-ma merriweather py-5">
+			<div class="container">
+				<div class="row">
+					<h3 class="text-center text-light merriweather"><strong>E-portfolio</strong></h3>
+					<div class="card bg-transparent text-center mb-4">
+
+						<div class="card-body text-light">
+							<h5 class="card-title">Special title treatment</h5>
+							<p class="card-text"></p>
+						</div>
+					</div>
+				</div>
+				<div class="row row-cols-1 row-cols-md-2 g-4">
+					<div class="col">
+						<div class="card">
+							<img src={{asset('IMAGE/administrateur.jpg')}} width="100px" height="200px" class="card-img-top" alt="..." />
+						</div>
+					</div>
+					<div class="col">
+						<div class="card">
+							<div class="card-body">
+								<h5 class="card-title">Réseau</h5>
+								<p class="card-text">
+									Faire de la configuration de switch attribuer des vlans,mettre en mode trunk ou access
+                                    à des ports pour qu'il puisse communiquer
+                                    <a href="https://drive.google.com/file/d/1JWsH65rr-WRiFNIVEggJsBM2PZS2hfpN/view?usp=share_link">ConfigurationCISCO</a>
+								</p>
+							</div>
+						</div>
+					</div><br><br>
+					<div class="col d-sm-none d-md-block">
+                        <div class="card">
+							<div class="card-body">
+								<h5 class="card-title">Web</h5>
+								<p class="card-text">
+								   faire du développement web sa me semble intéressant et j'adore<br>
+                                   <a href="https://github.com/Salamata-sow/SAE14">Mon github</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col d-sm-none d-md-block">
+						<div class="card">
+							<img src={{asset('IMAGE/proweb.jpg')}} width="100px" height="200px" class="card-img-top" alt="..." />
+						</div>
+					</div>
+                    <div class="col d-sm-none d-md-block">
+                        <div class="card">
+                                <img src={{asset('IMAGE/proweb.jpg')}} width="100px" height="200px" class="card-img-top" alt="..." />
+						</div>
+					</div>
+					<div class="col d-sm-none d-md-block">
+						<div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Web</h5>
+                                <p class="card-text">
+                                        A l'aise avec le langage c j'utilise un logiciel qui s'appel replit pour y coder et garder mes codes<br>
+                                        <a href="https://replit.com/~">replit</a>
+                                </p>
+                            </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+        
+        
+
+    
+    <body>
+</html>
