@@ -28,7 +28,7 @@
             {{ encore_entry_script_tags('app') }}
         {% endblock %}
     </head>
-    <body>
+    <body class="img">
         <script>
             $(document).ready(function() {
                 /*Initialisation du diaporama*/
@@ -62,10 +62,10 @@
             });
          </script>
 	    <style>
-            body{
-                background-image:url(https://fr.freepik.com/vecteurs-premium/connexion-reseau-globale_4173672.htm);
+            .img{
+                background-image: url('../IMAGE/IMGTRAVAIL.jpg');
                 background-repeat:no-repeat;
-                background-size: 100%;
+                background-size: cover;
             }
             /*définition du style pour le pied  de page*/
             footer{
@@ -202,7 +202,7 @@
             </div>
         </section>
         <footer>
-            copyright <span class="glyphicon glyphicon-nom-image"></span> 2023 Salamata
+            copyright <span class="glyphicon glyphicon-nom-image"></span> 2023 Salamata.sow@etu.univ-st-etienne.fr
         </footer>
     </body>
 </html>
