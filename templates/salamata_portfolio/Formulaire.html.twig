@@ -214,7 +214,7 @@
 	    </style>
         <nav class="cc-navbar navbar navbar-expand-lg navbar-dark position-fixed w-100">
 			<div class="container-fluid">
-				<a class="navbar-brand text-uppercase mx-4 py-3 fw-bolder">Welcome</a>
+				<a class="navbar-brand text-uppercase mx-4 py-3 fw-bolder">Salamata Sow</a>
 				<button
 					class="navbar-toggler"
 					type="button"
@@ -254,24 +254,44 @@
 
                     <input type="text" placeholder="name" class="box">
                     <input type="email" placeholder="email" class="box">
+                    <input type="email" placeholder="phone" class="box">
                     <input type="text" placeholder="project" class="box">
                     <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
                     <p class="nav-item pe-4">
-						<p class="btn btn-order rounded-0"><button type="submit" class="btn" style="color:black;">send<i class="fas fa-paper-plane"></i></button>
+						<p class="btn btn-order rounded-0"><button type="submit" class="btn" style="color:black;"><a href="../BUTRTC.V..pdf" download>send<i class="fas fa-paper-plane"></i></a></button>
 					</p>
-                    
+                    Télécharger CV
                 </form>
 
             </div>
 
         </section>
-        <form action="submit-cv.php" method="post" enctype="multipart/form-data">
-            <label for="cv">Sélectionnez votre CV (format PDF uniquement) :</label>
-            <input type="file" id="cv" name="cv" accept=".pdf" required><br>
+       
+        <script>
+            //Fonction pour valider le formulaire de contact
+            function validateForm() {
+                //Récupération des valeurs des champs de formulaire
+                var name = document.getElementById("name").value;
+                var email = document.getElementById("email").value;
+                var phone = document.getElementById("phone").value;
 
-            <input type="submit" value="Télécharger">
+                //Validation des champs de formulaire
+                if (name && email && phone) {
+                //Si tous les champs sont valides, afficher le formulaire de téléchargement de CV
+                document.getElementById("cvForm").style.display = "block";
+                } else {
+                alert("Veuillez remplir tous les champs du formulaire de contact avant de télécharger le CV.");
+                }
+            }
+            //Ecouteur d'événement pour la soumission du formulaire de contact
+            document.getElementById("contactForm").addEventListener("submit", validateForm);
+        </script>
+
+
+
+
+
         </form>
-ss
     </body>
 </html>
 
