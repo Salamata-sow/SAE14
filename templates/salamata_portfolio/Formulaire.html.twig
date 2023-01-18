@@ -27,7 +27,7 @@
             {{ encore_entry_script_tags('app') }}
         {% endblock %}
     </head>
-    <body>
+    <body class="img">
         <script>
             $(document).ready(function() {
                 /*Initialisation du diaporama*/
@@ -61,10 +61,10 @@
             });
          </script>
 	    <style>
-            body{
-                background-image:url();
+            .img{
+                background-image: url('https://img.freepik.com/vecteurs-libre/ordinateur-portable-icone-isometrique-code-programme-developpement-logiciels-applications-programmation-neon-sombre_39422-971.jpg');
                 background-repeat:no-repeat;
-                background-size: 100%;
+                background-size: cover;
             }
             /*définition du style pour le pied  de page*/
             footer{
@@ -223,6 +223,7 @@
 					aria-controls="navbarSupportedContent"
 					aria-expanded="false"
 					aria-label="Toggle navigation"
+
 				>
 					<span class="navbar-toggler-icon"></span>
 				</button>
@@ -254,7 +255,7 @@
 
                     <input type="text" placeholder="name" class="box" style="">
                     <input type="email" placeholder="email" class="box">
-                    <input type="email" placeholder="phone" class="box">
+                    <input type="phone" placeholder="phone" class="box">
                     <input type="text" placeholder="project" class="box">
                     <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
                     <p class="nav-item pe-4">
