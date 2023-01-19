@@ -81,70 +81,6 @@ class __TwigTemplate_44bb0dbf647b59be274bdf81f2f0e180 extends Template
                 background-size: 100%;
             }
             /*définition du style pour le pied  de page*/
-            footer{
-                background-color:#333333;
-                color: #ffffff;
-                padding:1em;
-                texte-align: center;
-            }
-            .redressed {
-                font-family: 'Redressed', cursive;
-                font-size: 1,5%;
-            }
-
-            .merriweather {
-                font-family: 'Merriweather', serif;
-            }
-
-            .cc-navbar {
-                background-color: rgba(0, 0, 0, 0.55);
-                font-family: 'Merriweather', serif;
-                z-index: 99;
-            }
-
-            .cc-navbar .nav-link {
-                border-bottom: 1px solid transparent;
-                transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
-            }
-
-            .cc-navbar .nav-link:hover {
-                padding-bottom: 20px;
-                border-bottom-color: var(--bs-teal);
-            }
-
-            .banner,
-            .order-form {
-                background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../public/IMAGE/images.jpg') center center fixed no-repeat;
-                background-size: cover;
-                height: 800px;
-            }
-
-            .order-form {
-                height: 500px;
-            }
-
-            .banner .banner-desc h1 {
-                font-size: 48px;
-                font-weight: 400;
-            }
-
-            .cc-m {
-                background-size: cover;
-                height: 1200px;
-            }
-
-            .btn-order {
-                color: var(--bs-teal);
-                border-color: var(--bs-teal);
-                transition: 0.5s;
-            }
-
-            .btn-order:hover,
-            .btn-order:focus,
-            .btn-order:active {
-                background-color: var(--bs-teal);
-                color:rgb(52, 54, 136);
-            }
             .ro{
                 text-align: center;
                 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -213,7 +149,7 @@ class __TwigTemplate_44bb0dbf647b59be274bdf81f2f0e180 extends Template
                         <div class=\"circular\">
                             <div class=\"user\">
                                 <img src=";
-        // line 170
+        // line 106
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/SALA2.jpg"), "html", null, true);
         echo ">
                             </div>
@@ -230,7 +166,7 @@ class __TwigTemplate_44bb0dbf647b59be274bdf81f2f0e180 extends Template
 \t\t\t\t\t<div class=\"col\">
 \t\t\t\t\t\t<div class=\"card\">
 \t\t\t\t\t\t\t<img src=";
-        // line 184
+        // line 120
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/administrateur.jpg"), "html", null, true);
         echo " width=\"100px\" height=\"200px\" class=\"card-img-top\" alt=\"...\" />
 \t\t\t\t\t\t</div>
@@ -241,7 +177,8 @@ class __TwigTemplate_44bb0dbf647b59be274bdf81f2f0e180 extends Template
 \t\t\t\t\t\t\t\t<h5 class=\"card-title\">Réseau</h5>
 \t\t\t\t\t\t\t\t<p class=\"card-text\">
 \t\t\t\t\t\t\t\t\tFaire de la configuration de switch attribuer des vlans,mettre en mode trunk ou access
-                                    à des ports pour qu'il puisse communiquer
+                                    à des ports pour qu'il puisse communiquer.<br>j'arrive à identifier le dysfonctionnement du reseau local avec plus de pratique  en R1.01b puis avec R1.03 j'ai me suis plus appliqué avec les tp en connectant les pc sur cisco pour configurer le switch et recuperer les donnés qui sont le serveur ftp en réel avec putty puis avec R1.02 je me suis plus approfondie sur le réseau avec l'analyse des trames l'encapsulation des trames avec scapy                  
+                                    Donc je vais plus m'y accrochez pour accéder à un niveau plus haut.
                                     <a href=\"https://drive.google.com/file/d/1JWsH65rr-WRiFNIVEggJsBM2PZS2hfpN/view?usp=share_link\">ConfigurationCISCO</a>
 \t\t\t\t\t\t\t\t</p>
 \t\t\t\t\t\t\t</div>
@@ -252,7 +189,7 @@ class __TwigTemplate_44bb0dbf647b59be274bdf81f2f0e180 extends Template
 \t\t\t\t\t\t\t<div class=\"card-body\">
 \t\t\t\t\t\t\t\t<h5 class=\"card-title\">Web</h5>
 \t\t\t\t\t\t\t\t<p class=\"card-text\">
-\t\t\t\t\t\t\t\t   faire du développement web sa me semble intéressant et j'adore<br>
+\t\t\t\t\t\t\t\t   faire du développement web sa me semble intéressant et j'adore<br>Créer des outils et applications informatiques pour les R&T je peux dire c'est un peu bon comme je l'ai dit en programmation pour le langage c je peux écrire un code simple<br>
                                    <a href=\"https://github.com/Salamata-sow/SAE14\">Mon github</a>
 \t\t\t\t\t\t\t\t</p>
 \t\t\t\t\t\t\t</div>
@@ -261,7 +198,7 @@ class __TwigTemplate_44bb0dbf647b59be274bdf81f2f0e180 extends Template
 \t\t\t\t\t<div class=\"col d-sm-none d-md-block\">
 \t\t\t\t\t\t<div class=\"card\">
 \t\t\t\t\t\t\t<img src=";
-        // line 212
+        // line 149
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/proweb.jpg"), "html", null, true);
         echo " width=\"100px\" height=\"200px\" class=\"card-img-top\" alt=\"...\" />
 \t\t\t\t\t\t</div>
@@ -269,7 +206,7 @@ class __TwigTemplate_44bb0dbf647b59be274bdf81f2f0e180 extends Template
                     <div class=\"col d-sm-none d-md-block\">
                         <div class=\"card\">
                                 <img src=";
-        // line 217
+        // line 154
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("https://img.freepik.com/vecteurs-libre/ordinateur-portable-icone-isometrique-code-programme-developpement-logiciels-applications-programmation-neon-sombre_39422-971.jpg"), "html", null, true);
         echo " width=\"100px\" height=\"200px\" class=\"card-img-top\" alt=\"...\" />
 \t\t\t\t\t\t</div>
@@ -285,13 +222,34 @@ class __TwigTemplate_44bb0dbf647b59be274bdf81f2f0e180 extends Template
                             </div>
 \t\t\t\t\t\t</div>
 \t\t\t\t\t</div>
+                    <div class=\"col\">
+\t\t\t\t\t\t<div class=\"card\">
+\t\t\t\t\t\t\t<div class=\"card-body\">
+\t\t\t\t\t\t\t\t<h5 class=\"card-title\">Réseau</h5>
+\t\t\t\t\t\t\t\t<p class=\"card-text\">
+\t\t\t\t\t\t\t\t\tje maitrise les lois fondemental sur la maniére d'utiliser les lois d'habilitation du courant et également calcul du pont diviseur calculer une tensiion . j'ai compris les cablages egalement avec les tp la physique à toujours était mon point fort depuis le collége donc je m'en sort sur les calcules et niveau je m'en suis sorti bien ce qui me sembler un peu bizzar au debut car je l'ai jamais fait mais bon je l'ai reussi
+                                    <a href=\"https://docs.google.com/document/d/1cnMh8zjgrynmtHqhbdOfcFR68ZTLjPcXxgBVRgiA_xE/edit?usp=sharing \">Quelques signaux</a>
+\t\t\t\t\t\t\t\t</p>
+\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t</div>
+\t\t\t\t\t</div>
+                    <div class=\"col d-sm-none d-md-block\">
+                        <div class=\"card\">
+                                <img src=";
+        // line 181
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/images.png"), "html", null, true);
+        echo " width=\"100px\" height=\"200px\" class=\"card-img-top\" alt=\"...\" />
+\t\t\t\t\t\t</div>
+\t\t\t\t\t</div>
+\t\t\t\t\t
+                    </div>
 \t\t\t\t</div>
 \t\t\t</div>
 \t\t</section>
         
         
         <footer>
-            copyright <span class=\"glyphicon glyphicon-nom-image\"></span> 2023 Salamata.sow@etu.univ-st-etienne.fr
+            copyright <span class=\"glyphicon glyphicon-nom-image\"></span> 2023 Salamata.sow site privé
         </footer>
 
     
@@ -338,7 +296,7 @@ class __TwigTemplate_44bb0dbf647b59be274bdf81f2f0e180 extends Template
         echo "            <link rel= \"stylesheet\" href=\"https://bootswatch.com/5/quartz/bootstrap.min.css\">
             <link rel=\"stylesheet\" href=";
         // line 20
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl(""), "html", null, true);
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("style2.css"), "html", null, true);
         echo ">
             
             ";
@@ -392,7 +350,7 @@ class __TwigTemplate_44bb0dbf647b59be274bdf81f2f0e180 extends Template
 
     public function getDebugInfo()
     {
-        return array (  372 => 28,  368 => 26,  358 => 25,  346 => 22,  341 => 20,  338 => 19,  328 => 18,  309 => 14,  273 => 217,  265 => 212,  234 => 184,  217 => 170,  75 => 30,  73 => 25,  70 => 24,  67 => 18,  61 => 14,  46 => 1,);
+        return array (  330 => 28,  326 => 26,  316 => 25,  304 => 22,  299 => 20,  296 => 19,  286 => 18,  267 => 14,  240 => 181,  210 => 154,  202 => 149,  170 => 120,  153 => 106,  75 => 30,  73 => 25,  70 => 24,  67 => 18,  61 => 14,  46 => 1,);
     }
 
     public function getSourceContext()
@@ -416,7 +374,7 @@ class __TwigTemplate_44bb0dbf647b59be274bdf81f2f0e180 extends Template
         {# Run `composer require symfony/webpack-encore-bundle` to start using Symfony UX #}
         {% block stylesheets %}
             <link rel= \"stylesheet\" href=\"https://bootswatch.com/5/quartz/bootstrap.min.css\">
-            <link rel=\"stylesheet\" href={{asset('')}}>
+            <link rel=\"stylesheet\" href={{asset('style2.css')}}>
             
             {{ encore_entry_link_tags('app') }}
         {% endblock %}
@@ -435,70 +393,6 @@ class __TwigTemplate_44bb0dbf647b59be274bdf81f2f0e180 extends Template
                 background-size: 100%;
             }
             /*définition du style pour le pied  de page*/
-            footer{
-                background-color:#333333;
-                color: #ffffff;
-                padding:1em;
-                texte-align: center;
-            }
-            .redressed {
-                font-family: 'Redressed', cursive;
-                font-size: 1,5%;
-            }
-
-            .merriweather {
-                font-family: 'Merriweather', serif;
-            }
-
-            .cc-navbar {
-                background-color: rgba(0, 0, 0, 0.55);
-                font-family: 'Merriweather', serif;
-                z-index: 99;
-            }
-
-            .cc-navbar .nav-link {
-                border-bottom: 1px solid transparent;
-                transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
-            }
-
-            .cc-navbar .nav-link:hover {
-                padding-bottom: 20px;
-                border-bottom-color: var(--bs-teal);
-            }
-
-            .banner,
-            .order-form {
-                background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../public/IMAGE/images.jpg') center center fixed no-repeat;
-                background-size: cover;
-                height: 800px;
-            }
-
-            .order-form {
-                height: 500px;
-            }
-
-            .banner .banner-desc h1 {
-                font-size: 48px;
-                font-weight: 400;
-            }
-
-            .cc-m {
-                background-size: cover;
-                height: 1200px;
-            }
-
-            .btn-order {
-                color: var(--bs-teal);
-                border-color: var(--bs-teal);
-                transition: 0.5s;
-            }
-
-            .btn-order:hover,
-            .btn-order:focus,
-            .btn-order:active {
-                background-color: var(--bs-teal);
-                color:rgb(52, 54, 136);
-            }
             .ro{
                 text-align: center;
                 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -589,7 +483,8 @@ class __TwigTemplate_44bb0dbf647b59be274bdf81f2f0e180 extends Template
 \t\t\t\t\t\t\t\t<h5 class=\"card-title\">Réseau</h5>
 \t\t\t\t\t\t\t\t<p class=\"card-text\">
 \t\t\t\t\t\t\t\t\tFaire de la configuration de switch attribuer des vlans,mettre en mode trunk ou access
-                                    à des ports pour qu'il puisse communiquer
+                                    à des ports pour qu'il puisse communiquer.<br>j'arrive à identifier le dysfonctionnement du reseau local avec plus de pratique  en R1.01b puis avec R1.03 j'ai me suis plus appliqué avec les tp en connectant les pc sur cisco pour configurer le switch et recuperer les donnés qui sont le serveur ftp en réel avec putty puis avec R1.02 je me suis plus approfondie sur le réseau avec l'analyse des trames l'encapsulation des trames avec scapy                  
+                                    Donc je vais plus m'y accrochez pour accéder à un niveau plus haut.
                                     <a href=\"https://drive.google.com/file/d/1JWsH65rr-WRiFNIVEggJsBM2PZS2hfpN/view?usp=share_link\">ConfigurationCISCO</a>
 \t\t\t\t\t\t\t\t</p>
 \t\t\t\t\t\t\t</div>
@@ -600,7 +495,7 @@ class __TwigTemplate_44bb0dbf647b59be274bdf81f2f0e180 extends Template
 \t\t\t\t\t\t\t<div class=\"card-body\">
 \t\t\t\t\t\t\t\t<h5 class=\"card-title\">Web</h5>
 \t\t\t\t\t\t\t\t<p class=\"card-text\">
-\t\t\t\t\t\t\t\t   faire du développement web sa me semble intéressant et j'adore<br>
+\t\t\t\t\t\t\t\t   faire du développement web sa me semble intéressant et j'adore<br>Créer des outils et applications informatiques pour les R&T je peux dire c'est un peu bon comme je l'ai dit en programmation pour le langage c je peux écrire un code simple<br>
                                    <a href=\"https://github.com/Salamata-sow/SAE14\">Mon github</a>
 \t\t\t\t\t\t\t\t</p>
 \t\t\t\t\t\t\t</div>
@@ -627,13 +522,31 @@ class __TwigTemplate_44bb0dbf647b59be274bdf81f2f0e180 extends Template
                             </div>
 \t\t\t\t\t\t</div>
 \t\t\t\t\t</div>
+                    <div class=\"col\">
+\t\t\t\t\t\t<div class=\"card\">
+\t\t\t\t\t\t\t<div class=\"card-body\">
+\t\t\t\t\t\t\t\t<h5 class=\"card-title\">Réseau</h5>
+\t\t\t\t\t\t\t\t<p class=\"card-text\">
+\t\t\t\t\t\t\t\t\tje maitrise les lois fondemental sur la maniére d'utiliser les lois d'habilitation du courant et également calcul du pont diviseur calculer une tensiion . j'ai compris les cablages egalement avec les tp la physique à toujours était mon point fort depuis le collége donc je m'en sort sur les calcules et niveau je m'en suis sorti bien ce qui me sembler un peu bizzar au debut car je l'ai jamais fait mais bon je l'ai reussi
+                                    <a href=\"https://docs.google.com/document/d/1cnMh8zjgrynmtHqhbdOfcFR68ZTLjPcXxgBVRgiA_xE/edit?usp=sharing \">Quelques signaux</a>
+\t\t\t\t\t\t\t\t</p>
+\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t</div>
+\t\t\t\t\t</div>
+                    <div class=\"col d-sm-none d-md-block\">
+                        <div class=\"card\">
+                                <img src={{asset('IMAGE/images.png')}} width=\"100px\" height=\"200px\" class=\"card-img-top\" alt=\"...\" />
+\t\t\t\t\t\t</div>
+\t\t\t\t\t</div>
+\t\t\t\t\t
+                    </div>
 \t\t\t\t</div>
 \t\t\t</div>
 \t\t</section>
         
         
         <footer>
-            copyright <span class=\"glyphicon glyphicon-nom-image\"></span> 2023 Salamata.sow@etu.univ-st-etienne.fr
+            copyright <span class=\"glyphicon glyphicon-nom-image\"></span> 2023 Salamata.sow site privé
         </footer>
 
     

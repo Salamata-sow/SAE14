@@ -66,12 +66,12 @@ class __TwigTemplate_230cef16836591ae6b367db8e49b8c73 extends Template
         // line 18
         echo "        ";
         $this->displayBlock('stylesheets', $context, $blocks);
-        // line 23
+        // line 24
         echo "
         ";
-        // line 24
+        // line 25
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 29
+        // line 30
         echo "    </head>
     <body class=\"img\">
         <script>
@@ -105,6 +105,27 @@ class __TwigTemplate_230cef16836591ae6b367db8e49b8c73 extends Template
                     intervalId = setInterval(nextImage, 4000);
                 });
             });
+            <script>
+            //Fonction pour valider le formulaire de contact
+            function validateForm() {
+                //Récupération des valeurs des champs de formulaire
+                var name = document.getElementById(\"name\").value;
+                var email = document.getElementById(\"email\").value;
+                var phone = document.getElementById(\"phone\").value;
+
+                //Validation des champs de formulaire
+                if (name && email && phone) {
+                //Si tous les champs sont valides, afficher le formulaire de téléchargement de CV
+                document.getElementById(\"cvForm\").style.display = \"block\";
+                } else {
+                alert(\"Veuillez remplir tous les champs du formulaire de contact avant de télécharger le CV.\");
+                }
+            }
+            //Ecouteur d'événement pour la soumission du formulaire de contact
+            document.getElementById(\"contactForm\").addEventListener(\"submit\", validateForm);
+        </script>
+
+
          </script>
 \t    <style>
             .img{
@@ -119,64 +140,7 @@ class __TwigTemplate_230cef16836591ae6b367db8e49b8c73 extends Template
                 padding:1em;
                 texte-align: center;
             }
-            .redressed {
-                font-family: 'Redressed', cursive;
-                font-size: 1,5%;
-            }
-
-            .merriweather {
-                font-family: 'Merriweather', serif;
-            }
-
-            .cc-navbar {
-                background-color: rgba(0, 0, 0, 0.55);
-                font-family: 'Merriweather', serif;
-                z-index: 99;
-            }
-
-            .cc-navbar .nav-link {
-                border-bottom: 1px solid transparent;
-                transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
-            }
-
-            .cc-navbar .nav-link:hover {
-                padding-bottom: 20px;
-                border-bottom-color: var(--bs-teal);
-            }
-
-            .banner,
-            .order-form {
-                background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../public/IMAGE/images.jpg') center center fixed no-repeat;
-                background-size: cover;
-                height: 800px;
-            }
-
-            .order-form {
-                height: 500px;
-            }
-
-            .banner .banner-desc h1 {
-                font-size: 408px;
-                font-weight: 400;
-            }
-
-            .cc-m {
-                background-size: cover;
-                height: 1200px;
-            }
-
-            .btn-order {
-                color: var(--bs-teal);
-                border-color: var(--bs-teal);
-                transition: 0.5s;
-            }
-
-            .btn-order:hover,
-            .btn-order:focus,
-            .btn-order:active {
-                background-color: var(--bs-teal);
-                color:rgb(52, 54, 136);
-            }
+            
             .ro{
                 text-align: center;
                 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -299,46 +263,27 @@ class __TwigTemplate_230cef16836591ae6b367db8e49b8c73 extends Template
             <div class=\"row\">
                 <form action=\"\">
 
-                    <input type=\"text\" placeholder=\"name\" class=\"box\" style=\"\">
-                    <input type=\"email\" placeholder=\"email\" class=\"box\">
-                    <input type=\"phone\" placeholder=\"phone\" class=\"box\">
-                    <input type=\"text\" placeholder=\"project\" class=\"box\">
-                    <textarea name=\"\" id=\"\" cols=\"30\" rows=\"10\" class=\"box message\" placeholder=\"message\"></textarea>
+                    <input type=\"text\" placeholder=\"name\" class=\"box\" style=\"\" required>
+                    <input type=\"email\" placeholder=\"email\" class=\"box\" required>      
+
+                    <input type=\"phone\" placeholder=\"phone\" class=\"box\" required>
+                    <input type=\"text\" placeholder=\"project\" class=\"box\" required
+                    >
+                    <textarea name=\"\" id=\"\" cols=\"30\" rows=\"10\" class=\"box message\" placeholder=\"message\" required></textarea>
                     <p class=\"nav-item pe-4\">
-\t\t\t\t\t\t<p class=\"btn btn-order rounded-0\"><button type=\"submit\" class=\"btn\" style=\"color:black;\"><a href=\"../BUTRTC.V..pdf\" download>send<i class=\"fas fa-paper-plane\"></i></a></button>
-\t\t\t\t\t</p>
+\t\t\t\t\t\t<p class=\"btn btn-order rounded-0\"><button type=\"submit\" class=\"btn\" style=\"color:black;\"><a href=\"/BUTRTC.V..pdf\" target=\"_blank\" download>send<i class=\"fas fa-paper-plane\"></i></a></button>
+\t
+    
+                        </p>
                     Télécharger CV
                 </form>
 
             </div>
 
         </section>
-       
-        <script>
-            //Fonction pour valider le formulaire de contact
-            function validateForm() {
-                //Récupération des valeurs des champs de formulaire
-                var name = document.getElementById(\"name\").value;
-                var email = document.getElementById(\"email\").value;
-                var phone = document.getElementById(\"phone\").value;
-
-                //Validation des champs de formulaire
-                if (name && email && phone) {
-                //Si tous les champs sont valides, afficher le formulaire de téléchargement de CV
-                document.getElementById(\"cvForm\").style.display = \"block\";
-                } else {
-                alert(\"Veuillez remplir tous les champs du formulaire de contact avant de télécharger le CV.\");
-                }
-            }
-            //Ecouteur d'événement pour la soumission du formulaire de contact
-            document.getElementById(\"contactForm\").addEventListener(\"submit\", validateForm);
-        </script>
-
-
-
-
-
-        </form>
+        <footer style=\"font-size: 15px;\">
+            copyright <span class=\"glyphicon glyphicon-nom-image\"></span> 2023 Salamata.sow site privé
+        </footer>                            
     </body>
 </html>
 
@@ -382,9 +327,13 @@ class __TwigTemplate_230cef16836591ae6b367db8e49b8c73 extends Template
 
         // line 19
         echo "            <link rel= \"stylesheet\" href=\"https://bootswatch.com/5/quartz/bootstrap.min.css\">
+            <link rel= \"stylesheet\" href=";
+        // line 20
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("style2.css"), "html", null, true);
+        echo "
             
             ";
-        // line 21
+        // line 22
         echo twig_escape_filter($this->env, $this->env->getFunction('encore_entry_link_tags')->getCallable()("app"), "html", null, true);
         echo "
         ";
@@ -396,7 +345,7 @@ class __TwigTemplate_230cef16836591ae6b367db8e49b8c73 extends Template
 
     }
 
-    // line 24
+    // line 25
     public function block_javascripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -406,11 +355,11 @@ class __TwigTemplate_230cef16836591ae6b367db8e49b8c73 extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "javascripts"));
 
-        // line 25
+        // line 26
         echo "          <script src=\"https://code.jquery.com/jquery-3.6.3.min.js\"></script>
          
             ";
-        // line 27
+        // line 28
         echo twig_escape_filter($this->env, $this->env->getFunction('encore_entry_script_tags')->getCallable()("app"), "html", null, true);
         echo "
         ";
@@ -429,7 +378,7 @@ class __TwigTemplate_230cef16836591ae6b367db8e49b8c73 extends Template
 
     public function getDebugInfo()
     {
-        return array (  414 => 27,  410 => 25,  400 => 24,  388 => 21,  384 => 19,  374 => 18,  355 => 14,  75 => 29,  73 => 24,  70 => 23,  67 => 18,  61 => 14,  46 => 1,);
+        return array (  363 => 28,  359 => 26,  349 => 25,  337 => 22,  332 => 20,  329 => 19,  319 => 18,  300 => 14,  75 => 30,  73 => 25,  70 => 24,  67 => 18,  61 => 14,  46 => 1,);
     }
 
     public function getSourceContext()
@@ -453,6 +402,7 @@ class __TwigTemplate_230cef16836591ae6b367db8e49b8c73 extends Template
         {# Run `composer require symfony/webpack-encore-bundle` to start using Symfony UX #}
         {% block stylesheets %}
             <link rel= \"stylesheet\" href=\"https://bootswatch.com/5/quartz/bootstrap.min.css\">
+            <link rel= \"stylesheet\" href={{asset('style2.css')}}
             
             {{ encore_entry_link_tags('app') }}
         {% endblock %}
@@ -495,6 +445,27 @@ class __TwigTemplate_230cef16836591ae6b367db8e49b8c73 extends Template
                     intervalId = setInterval(nextImage, 4000);
                 });
             });
+            <script>
+            //Fonction pour valider le formulaire de contact
+            function validateForm() {
+                //Récupération des valeurs des champs de formulaire
+                var name = document.getElementById(\"name\").value;
+                var email = document.getElementById(\"email\").value;
+                var phone = document.getElementById(\"phone\").value;
+
+                //Validation des champs de formulaire
+                if (name && email && phone) {
+                //Si tous les champs sont valides, afficher le formulaire de téléchargement de CV
+                document.getElementById(\"cvForm\").style.display = \"block\";
+                } else {
+                alert(\"Veuillez remplir tous les champs du formulaire de contact avant de télécharger le CV.\");
+                }
+            }
+            //Ecouteur d'événement pour la soumission du formulaire de contact
+            document.getElementById(\"contactForm\").addEventListener(\"submit\", validateForm);
+        </script>
+
+
          </script>
 \t    <style>
             .img{
@@ -509,64 +480,7 @@ class __TwigTemplate_230cef16836591ae6b367db8e49b8c73 extends Template
                 padding:1em;
                 texte-align: center;
             }
-            .redressed {
-                font-family: 'Redressed', cursive;
-                font-size: 1,5%;
-            }
-
-            .merriweather {
-                font-family: 'Merriweather', serif;
-            }
-
-            .cc-navbar {
-                background-color: rgba(0, 0, 0, 0.55);
-                font-family: 'Merriweather', serif;
-                z-index: 99;
-            }
-
-            .cc-navbar .nav-link {
-                border-bottom: 1px solid transparent;
-                transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
-            }
-
-            .cc-navbar .nav-link:hover {
-                padding-bottom: 20px;
-                border-bottom-color: var(--bs-teal);
-            }
-
-            .banner,
-            .order-form {
-                background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../public/IMAGE/images.jpg') center center fixed no-repeat;
-                background-size: cover;
-                height: 800px;
-            }
-
-            .order-form {
-                height: 500px;
-            }
-
-            .banner .banner-desc h1 {
-                font-size: 408px;
-                font-weight: 400;
-            }
-
-            .cc-m {
-                background-size: cover;
-                height: 1200px;
-            }
-
-            .btn-order {
-                color: var(--bs-teal);
-                border-color: var(--bs-teal);
-                transition: 0.5s;
-            }
-
-            .btn-order:hover,
-            .btn-order:focus,
-            .btn-order:active {
-                background-color: var(--bs-teal);
-                color:rgb(52, 54, 136);
-            }
+            
             .ro{
                 text-align: center;
                 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -689,46 +603,27 @@ class __TwigTemplate_230cef16836591ae6b367db8e49b8c73 extends Template
             <div class=\"row\">
                 <form action=\"\">
 
-                    <input type=\"text\" placeholder=\"name\" class=\"box\" style=\"\">
-                    <input type=\"email\" placeholder=\"email\" class=\"box\">
-                    <input type=\"phone\" placeholder=\"phone\" class=\"box\">
-                    <input type=\"text\" placeholder=\"project\" class=\"box\">
-                    <textarea name=\"\" id=\"\" cols=\"30\" rows=\"10\" class=\"box message\" placeholder=\"message\"></textarea>
+                    <input type=\"text\" placeholder=\"name\" class=\"box\" style=\"\" required>
+                    <input type=\"email\" placeholder=\"email\" class=\"box\" required>      
+
+                    <input type=\"phone\" placeholder=\"phone\" class=\"box\" required>
+                    <input type=\"text\" placeholder=\"project\" class=\"box\" required
+                    >
+                    <textarea name=\"\" id=\"\" cols=\"30\" rows=\"10\" class=\"box message\" placeholder=\"message\" required></textarea>
                     <p class=\"nav-item pe-4\">
-\t\t\t\t\t\t<p class=\"btn btn-order rounded-0\"><button type=\"submit\" class=\"btn\" style=\"color:black;\"><a href=\"../BUTRTC.V..pdf\" download>send<i class=\"fas fa-paper-plane\"></i></a></button>
-\t\t\t\t\t</p>
+\t\t\t\t\t\t<p class=\"btn btn-order rounded-0\"><button type=\"submit\" class=\"btn\" style=\"color:black;\"><a href=\"/BUTRTC.V..pdf\" target=\"_blank\" download>send<i class=\"fas fa-paper-plane\"></i></a></button>
+\t
+    
+                        </p>
                     Télécharger CV
                 </form>
 
             </div>
 
         </section>
-       
-        <script>
-            //Fonction pour valider le formulaire de contact
-            function validateForm() {
-                //Récupération des valeurs des champs de formulaire
-                var name = document.getElementById(\"name\").value;
-                var email = document.getElementById(\"email\").value;
-                var phone = document.getElementById(\"phone\").value;
-
-                //Validation des champs de formulaire
-                if (name && email && phone) {
-                //Si tous les champs sont valides, afficher le formulaire de téléchargement de CV
-                document.getElementById(\"cvForm\").style.display = \"block\";
-                } else {
-                alert(\"Veuillez remplir tous les champs du formulaire de contact avant de télécharger le CV.\");
-                }
-            }
-            //Ecouteur d'événement pour la soumission du formulaire de contact
-            document.getElementById(\"contactForm\").addEventListener(\"submit\", validateForm);
-        </script>
-
-
-
-
-
-        </form>
+        <footer style=\"font-size: 15px;\">
+            copyright <span class=\"glyphicon glyphicon-nom-image\"></span> 2023 Salamata.sow site privé
+        </footer>                            
     </body>
 </html>
 

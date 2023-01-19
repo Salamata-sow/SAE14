@@ -146,22 +146,8 @@ class __TwigTemplate_09eb33b70da879984d396b230db26e96 extends Template
                 align-items: center;
 
             }
-        .user img{
-                height: 15rem;
-                width: 15rem;
-                border-radius: 50%;
-                object-fit: cover;
-                margin-bottom: 1rem;
-                border: 1rem solid var(--yellow);
-                display: flex;
-        }
-        :root{
-                --yellow:#f9ca24;
-         }
-        *::selection{
-                background: var(--yellow);
-                color: #333;
-        }
+    
+        
         .small{
                 font-size: 20px;
                 text-align: left;
@@ -296,12 +282,7 @@ class __TwigTemplate_09eb33b70da879984d396b230db26e96 extends Template
             }
             
        
-            .circular{
-                display: flex;
-                justify-content: center;
-                align-items: center;
-
-            }
+            
             .user img{
                 height: 30rem;
                 width: 30rem;
@@ -318,12 +299,7 @@ class __TwigTemplate_09eb33b70da879984d396b230db26e96 extends Template
                 background: var(--yellow);
                 color: #333;
             }
-            footer{
-                background-color:#333333;
-                color: #ffffff;
-                padding:1em;
-                texte-align: center;
-            }
+
             .i{
                 font-size: 15px;
                 float: right;
@@ -364,7 +340,7 @@ class __TwigTemplate_09eb33b70da879984d396b230db26e96 extends Template
             <div class=\"user\">
                 <p class=\"i\"><i>Salut je m'appel salamata sow, je suis étudiante en réseau et télécommunication.<br>Je suis trés intéressée par tous ce qui est réseau et systéme et<br> Je suis motivé ,autonome,dynamique ,fiable et doté d'une solide ethique professionnelle et d'une capacité à travaillé en équipe </i> </p>
                 <img src=";
-        // line 335
+        // line 311
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/SALA2.jpg"), "html", null, true);
         echo ">
        
@@ -557,7 +533,7 @@ class __TwigTemplate_09eb33b70da879984d396b230db26e96 extends Template
 
     public function getDebugInfo()
     {
-        return array (  537 => 41,  520 => 26,  510 => 25,  498 => 22,  492 => 19,  489 => 18,  479 => 17,  460 => 14,  368 => 335,  74 => 43,  72 => 25,  69 => 24,  66 => 17,  61 => 14,  46 => 1,);
+        return array (  513 => 41,  496 => 26,  486 => 25,  474 => 22,  468 => 19,  465 => 18,  455 => 17,  436 => 14,  344 => 311,  74 => 43,  72 => 25,  69 => 24,  66 => 17,  61 => 14,  46 => 1,);
     }
 
     public function getSourceContext()
@@ -679,22 +655,8 @@ class __TwigTemplate_09eb33b70da879984d396b230db26e96 extends Template
                 align-items: center;
 
             }
-        .user img{
-                height: 15rem;
-                width: 15rem;
-                border-radius: 50%;
-                object-fit: cover;
-                margin-bottom: 1rem;
-                border: 1rem solid var(--yellow);
-                display: flex;
-        }
-        :root{
-                --yellow:#f9ca24;
-         }
-        *::selection{
-                background: var(--yellow);
-                color: #333;
-        }
+    
+        
         .small{
                 font-size: 20px;
                 text-align: left;
@@ -829,12 +791,7 @@ class __TwigTemplate_09eb33b70da879984d396b230db26e96 extends Template
             }
             
        
-            .circular{
-                display: flex;
-                justify-content: center;
-                align-items: center;
-
-            }
+            
             .user img{
                 height: 30rem;
                 width: 30rem;
@@ -851,12 +808,7 @@ class __TwigTemplate_09eb33b70da879984d396b230db26e96 extends Template
                 background: var(--yellow);
                 color: #333;
             }
-            footer{
-                background-color:#333333;
-                color: #ffffff;
-                padding:1em;
-                texte-align: center;
-            }
+
             .i{
                 font-size: 15px;
                 float: right;

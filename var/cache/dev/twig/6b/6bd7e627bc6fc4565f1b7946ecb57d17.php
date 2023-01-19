@@ -113,75 +113,6 @@ class __TwigTemplate_17e5d42bcb6bfbdcce0661c9c6cc81dd extends Template
                 background-size: cover;
             }
             /*définition du style pour le pied  de page*/
-            footer{
-                background-color:#333333;
-                color: #ffffff;
-                padding:1em;
-                texte-align: center;
-            }
-            .redressed {
-                font-family: 'Redressed', cursive;
-                font-size: 1,5%;
-            }
-
-            .merriweather {
-                font-family: 'Merriweather', serif;
-            }
-
-            .cc-navbar {
-                background-color: rgba(0, 0, 0, 0.55);
-                font-family: 'Merriweather', serif;
-                z-index: 99;
-            }
-
-            .cc-navbar .nav-link {
-                border-bottom: 1px solid transparent;
-                transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
-            }
-
-            .cc-navbar .nav-link:hover {
-                padding-bottom: 20px;
-                border-bottom-color: var(--bs-teal);
-            }
-
-            .banner,
-            .order-form {
-                background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../public/IMAGE/images.jpg') center center fixed no-repeat;
-                background-size: cover;
-                height: 800px;
-            }
-
-            .order-form {
-                height: 500px;
-            }
-
-            .banner .banner-desc h1 {
-                font-size: 48px;
-                font-weight: 400;
-            }
-
-            .cc-m {
-                background-size: cover;
-                height: 1200px;
-            }
-
-            .btn-order {
-                color: var(--bs-teal);
-                border-color: var(--bs-teal);
-                transition: 0.5s;
-            }
-
-            .btn-order:hover,
-            .btn-order:focus,
-            .btn-order:active {
-                background-color: var(--bs-teal);
-                color:rgb(52, 54, 136);
-            }
-            .ro{
-                text-align: center;
-                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            }
-            
                 
 \t    </style>
         <nav class=\"cc-navbar navbar navbar-expand-lg navbar-dark position-fixed w-100\">
@@ -225,53 +156,61 @@ class __TwigTemplate_17e5d42bcb6bfbdcce0661c9c6cc81dd extends Template
                         <a class=\"navbar-brand text-uppercase mx-4 py-3 fw-bolder\">
                             <div id=\"slideshow\" class=\"img-gallery\" align-item=\"left\">
                                 <img src=";
-        // line 182
+        // line 113
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/SALA2.jpg"), "html", null, true);
         echo " width=\"80%\">
                                 <img src=";
-        // line 183
+        // line 114
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/IMG1.jpeg"), "html", null, true);
         echo " width=\"80%\">
                                 <img src=";
-        // line 184
+        // line 115
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/IMG2.jpeg"), "html", null, true);
         echo " width=\"80%\">
                                 <img src=";
-        // line 185
+        // line 116
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/IMG3.jpeg"), "html", null, true);
         echo " width=\"80%\">
                                 <img src=";
-        // line 186
+        // line 117
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/IMG5.jpeg"), "html", null, true);
         echo " width=\"80%\">
                                 <img src=";
-        // line 187
+        // line 118
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/IMG11.png"), "html", null, true);
         echo " width=\"80%\">
                                 <img src=";
-        // line 188
+        // line 119
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/IMGTRAVAIL.jpg"), "html", null, true);
         echo " width=\"80%\">
                                 <img src=";
-        // line 189
+        // line 120
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/sunir.jpg"), "html", null, true);
         echo " width=\"80%\">
                                 <img src=";
-        // line 190
+        // line 121
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/TRAVAILdequi.jpg"), "html", null, true);
         echo " width=\"80%\">
                                 <img src=";
-        // line 191
+        // line 122
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/reseau.webp"), "html", null, true);
+        echo " width=\"80%\">
+                                <img src=";
+        // line 123
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/biguesala.jpg"), "html", null, true);
+        echo " width=\"80%\">
+                                <img src=";
+        // line 124
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/"), "html", null, true);
         echo " width=\"80%\">
                             </div>
                         </a>
                     </p>
                     </div>
                     <div class=\"col-md-6 banner-desc lh-lg\">
-                        <h1 class=\"text-capitalize py-3 redressed\">
-                        voici quelques image qui refléte ma personnalité et ma joie de vivre 
-                        </h1>
+                        <p class=\"text-capitalize py-3 redressed\">
+                            <i>voici quelques image qui refléte ma personnalité et ma joie de vivre,mes loisir mon travail en équipe  </i>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -324,7 +263,7 @@ class __TwigTemplate_17e5d42bcb6bfbdcce0661c9c6cc81dd extends Template
         echo "            <link rel= \"stylesheet\" href=\"https://bootswatch.com/5/quartz/bootstrap.min.css\">
             <link rel=\"stylesheet\" href=";
         // line 20
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl(""), "html", null, true);
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("style2.css"), "html", null, true);
         echo ">
             
             ";
@@ -378,7 +317,7 @@ class __TwigTemplate_17e5d42bcb6bfbdcce0661c9c6cc81dd extends Template
 
     public function getDebugInfo()
     {
-        return array (  358 => 28,  354 => 26,  344 => 25,  332 => 22,  327 => 20,  324 => 19,  314 => 18,  295 => 14,  265 => 191,  261 => 190,  257 => 189,  253 => 188,  249 => 187,  245 => 186,  241 => 185,  237 => 184,  233 => 183,  229 => 182,  75 => 30,  73 => 25,  70 => 24,  67 => 18,  61 => 14,  46 => 1,);
+        return array (  297 => 28,  293 => 26,  283 => 25,  271 => 22,  266 => 20,  263 => 19,  253 => 18,  234 => 14,  204 => 124,  200 => 123,  196 => 122,  192 => 121,  188 => 120,  184 => 119,  180 => 118,  176 => 117,  172 => 116,  168 => 115,  164 => 114,  160 => 113,  75 => 30,  73 => 25,  70 => 24,  67 => 18,  61 => 14,  46 => 1,);
     }
 
     public function getSourceContext()
@@ -402,7 +341,7 @@ class __TwigTemplate_17e5d42bcb6bfbdcce0661c9c6cc81dd extends Template
         {# Run `composer require symfony/webpack-encore-bundle` to start using Symfony UX #}
         {% block stylesheets %}
             <link rel= \"stylesheet\" href=\"https://bootswatch.com/5/quartz/bootstrap.min.css\">
-            <link rel=\"stylesheet\" href={{asset('')}}>
+            <link rel=\"stylesheet\" href={{asset('style2.css')}}>
             
             {{ encore_entry_link_tags('app') }}
         {% endblock %}
@@ -453,75 +392,6 @@ class __TwigTemplate_17e5d42bcb6bfbdcce0661c9c6cc81dd extends Template
                 background-size: cover;
             }
             /*définition du style pour le pied  de page*/
-            footer{
-                background-color:#333333;
-                color: #ffffff;
-                padding:1em;
-                texte-align: center;
-            }
-            .redressed {
-                font-family: 'Redressed', cursive;
-                font-size: 1,5%;
-            }
-
-            .merriweather {
-                font-family: 'Merriweather', serif;
-            }
-
-            .cc-navbar {
-                background-color: rgba(0, 0, 0, 0.55);
-                font-family: 'Merriweather', serif;
-                z-index: 99;
-            }
-
-            .cc-navbar .nav-link {
-                border-bottom: 1px solid transparent;
-                transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
-            }
-
-            .cc-navbar .nav-link:hover {
-                padding-bottom: 20px;
-                border-bottom-color: var(--bs-teal);
-            }
-
-            .banner,
-            .order-form {
-                background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../public/IMAGE/images.jpg') center center fixed no-repeat;
-                background-size: cover;
-                height: 800px;
-            }
-
-            .order-form {
-                height: 500px;
-            }
-
-            .banner .banner-desc h1 {
-                font-size: 48px;
-                font-weight: 400;
-            }
-
-            .cc-m {
-                background-size: cover;
-                height: 1200px;
-            }
-
-            .btn-order {
-                color: var(--bs-teal);
-                border-color: var(--bs-teal);
-                transition: 0.5s;
-            }
-
-            .btn-order:hover,
-            .btn-order:focus,
-            .btn-order:active {
-                background-color: var(--bs-teal);
-                color:rgb(52, 54, 136);
-            }
-            .ro{
-                text-align: center;
-                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            }
-            
                 
 \t    </style>
         <nav class=\"cc-navbar navbar navbar-expand-lg navbar-dark position-fixed w-100\">
@@ -574,14 +444,16 @@ class __TwigTemplate_17e5d42bcb6bfbdcce0661c9c6cc81dd extends Template
                                 <img src={{asset('IMAGE/sunir.jpg')}} width=\"80%\">
                                 <img src={{asset('IMAGE/TRAVAILdequi.jpg')}} width=\"80%\">
                                 <img src={{asset('IMAGE/reseau.webp')}} width=\"80%\">
+                                <img src={{asset('IMAGE/biguesala.jpg')}} width=\"80%\">
+                                <img src={{asset('IMAGE/')}} width=\"80%\">
                             </div>
                         </a>
                     </p>
                     </div>
                     <div class=\"col-md-6 banner-desc lh-lg\">
-                        <h1 class=\"text-capitalize py-3 redressed\">
-                        voici quelques image qui refléte ma personnalité et ma joie de vivre 
-                        </h1>
+                        <p class=\"text-capitalize py-3 redressed\">
+                            <i>voici quelques image qui refléte ma personnalité et ma joie de vivre,mes loisir mon travail en équipe  </i>
+                        </p>
                     </div>
                 </div>
             </div>
