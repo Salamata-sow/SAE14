@@ -167,7 +167,7 @@ header .navbar ul li a:hover{
 
 
 .about .row .info{
-	flex:1 1 48rem;
+	flex:1 1 4rem;
 	padding:2rem 1rem;
 	padding-left: 6rem;
 }
@@ -185,14 +185,14 @@ header .navbar ul li a:hover{
 }
 
 .about .row .counter{
-	flex:1 1 48rem;
+	flex:1 1 18rem;
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
 }
 
 .about .row .counter .box{
-	width:30rem;
+	width:10rem;
 	background:#222;
 	text-align: center;
 	padding: 4rem;
@@ -200,7 +200,7 @@ header .navbar ul li a:hover{
 }
 
 .about .row .counter .box span{
-	font-size: 7rem;
+	font-size: 5rem;
 	color:var(--yellow);
 }
 
@@ -211,31 +211,33 @@ header .navbar ul li a:hover{
 
 
 .portfolio .box-container{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-wrap: wrap;
-	padding:2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:2rem 0;
 }
 
 .portfolio .box-container .box{
-	height: 20rem;
-	width:26rem;
-	border-radius: 1rem;
-	margin:2rem;
-	overflow: hidden;
-	cursor: pointer;
+    height: 10rem;
+    width:16rem;
+    border-radius: 1rem;
+    margin:2rem;
+    overflow: hidden;
+    cursor: pointer;
 }
 
 .portfolio .box-container .box img{
-	height:100%;
-	width:100%;
-	object-fit: cover;
+    height:100%;
+    width:100%;
+    object-fit: cover;
 }
 
 .portfolio .box-container .box:hover img{
-	transform: scale(1.2);
+    transform: scale(1.2);
 }
+
+
 
 .contact .row{
 	display: flex;
@@ -245,13 +247,13 @@ header .navbar ul li a:hover{
 }
 
 .contact .row .content{
-	flex:1 1 30rem;
+	flex:1 1 20rem;
 	padding:4rem;
 	padding-bottom: 0;
 }
 
 .contact .row form{
-	flex:1 1 45rem;
+	flex:1 1 25rem;
 	padding:2rem;
 	margin:2rem;
 	margin-bottom: 4rem;
@@ -264,7 +266,7 @@ header .navbar ul li a:hover{
 	color:#fff;
 	text-transform: none;
 	font-size: 1.7rem;
-	width:100%;
+	width:10%;
 }
 
 .contact .row form .box::placeholder{
@@ -286,7 +288,7 @@ header .navbar ul li a:hover{
 .contact .row .content .info h3{
 	display: flex;
 	align-items: center;
-	font-size: 2rem;
+	font-size: 1rem;
 	color:#eee;
 	padding:1rem 0;
 	font-weight: normal;
@@ -325,7 +327,7 @@ body{
 @media (max-width:400px){
 
 	header{
-		width: 100vw;
+		width: 80vw;
 	}
 
 }
