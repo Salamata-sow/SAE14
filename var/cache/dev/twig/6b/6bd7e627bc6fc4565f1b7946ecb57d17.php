@@ -157,59 +157,60 @@ class __TwigTemplate_17e5d42bcb6bfbdcce0661c9c6cc81dd extends Template
                             <div id=\"slideshow\" class=\"img-gallery\" align-item=\"left\">
                                 <img src=";
         // line 113
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/SALA2.jpg"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/loisir.png"), "html", null, true);
         echo " width=\"80%\">
                                 <img src=";
         // line 114
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/IMG1.jpeg"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/SALA2.jpg"), "html", null, true);
         echo " width=\"80%\">
                                 <img src=";
         // line 115
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/IMG2.jpeg"), "html", null, true);
-        echo " width=\"80%\">
-                                <img src=";
-        // line 116
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/IMG3.jpeg"), "html", null, true);
-        echo " width=\"80%\">
-                                <img src=";
-        // line 117
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/IMG5.jpeg"), "html", null, true);
-        echo " width=\"80%\">
-                                <img src=";
-        // line 118
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/IMG11.png"), "html", null, true);
-        echo " width=\"80%\">
-                                <img src=";
-        // line 119
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/IMGTRAVAIL.jpg"), "html", null, true);
-        echo " width=\"80%\">
-                                <img src=";
-        // line 120
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/sunir.jpg"), "html", null, true);
-        echo " width=\"80%\">
-                                <img src=";
-        // line 121
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/TRAVAILdequi.jpg"), "html", null, true);
-        echo " width=\"80%\">
-                                <img src=";
-        // line 122
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/reseau.webp"), "html", null, true);
-        echo " width=\"80%\">
-                                <img src=";
-        // line 123
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/biguesala.jpg"), "html", null, true);
         echo " width=\"80%\">
                                 <img src=";
-        // line 124
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/"), "html", null, true);
+        // line 116
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/cuisiner.jpg"), "html", null, true);
         echo " width=\"80%\">
+                                <img src=";
+        // line 117
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/sqauat.jpg"), "html", null, true);
+        echo " width=\"80%\">
+                                <img src=";
+        // line 118
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/basket.jpg"), "html", null, true);
+        echo " width=\"80%\">
+                                <img src=";
+        // line 119
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/IMG11.png"), "html", null, true);
+        echo " width=\"80%\">
+                                <img src=";
+        // line 120
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/IMGTRAVAIL.jpg"), "html", null, true);
+        echo " width=\"80%\">
+                                <img src=";
+        // line 121
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/sunir.jpg"), "html", null, true);
+        echo " width=\"80%\">
+                                <img src=";
+        // line 122
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/visité.jpg"), "html", null, true);
+        echo " width=\"80%\">
+                                <img src=";
+        // line 123
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/promener.jpg"), "html", null, true);
+        echo " width=\"80%\">
+                                <img src=";
+        // line 124
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/IMG2.jpeg"), "html", null, true);
+        echo " width=\"80%\">
+                                
                             </div>
                         </a>
                     </p>
                     </div>
                     <div class=\"col-md-6 banner-desc lh-lg\">
                         <p class=\"text-capitalize py-3 redressed\">
-                            <i>voici quelques image qui refléte ma personnalité et ma joie de vivre,mes loisir mon travail en équipe  </i>
+                            <i>voici quelques images qui reflétent ma personnalité et ma joie de vivre,en quelques mots durant mes journée libres je cuisine pour faire passer le temps, faire un peu d'sport pour retrouver la forme se retrouver avec les amies pour changer d'idée discuter,je pratique du basket sa me passionne   </i>
                         </p>
                     </div>
                 </div>
@@ -317,7 +318,7 @@ class __TwigTemplate_17e5d42bcb6bfbdcce0661c9c6cc81dd extends Template
 
     public function getDebugInfo()
     {
-        return array (  297 => 28,  293 => 26,  283 => 25,  271 => 22,  266 => 20,  263 => 19,  253 => 18,  234 => 14,  204 => 124,  200 => 123,  196 => 122,  192 => 121,  188 => 120,  184 => 119,  180 => 118,  176 => 117,  172 => 116,  168 => 115,  164 => 114,  160 => 113,  75 => 30,  73 => 25,  70 => 24,  67 => 18,  61 => 14,  46 => 1,);
+        return array (  298 => 28,  294 => 26,  284 => 25,  272 => 22,  267 => 20,  264 => 19,  254 => 18,  235 => 14,  204 => 124,  200 => 123,  196 => 122,  192 => 121,  188 => 120,  184 => 119,  180 => 118,  176 => 117,  172 => 116,  168 => 115,  164 => 114,  160 => 113,  75 => 30,  73 => 25,  70 => 24,  67 => 18,  61 => 14,  46 => 1,);
     }
 
     public function getSourceContext()
@@ -434,25 +435,26 @@ class __TwigTemplate_17e5d42bcb6bfbdcce0661c9c6cc81dd extends Template
                     <p class=\"text-capitalize py-3 redressed\">
                         <a class=\"navbar-brand text-uppercase mx-4 py-3 fw-bolder\">
                             <div id=\"slideshow\" class=\"img-gallery\" align-item=\"left\">
+                                <img src={{asset('IMAGE/loisir.png')}} width=\"80%\">
                                 <img src={{asset('IMAGE/SALA2.jpg')}} width=\"80%\">
-                                <img src={{asset('IMAGE/IMG1.jpeg')}} width=\"80%\">
-                                <img src={{asset('IMAGE/IMG2.jpeg')}} width=\"80%\">
-                                <img src={{asset('IMAGE/IMG3.jpeg')}} width=\"80%\">
-                                <img src={{asset('IMAGE/IMG5.jpeg')}} width=\"80%\">
+                                <img src={{asset('IMAGE/biguesala.jpg')}} width=\"80%\">
+                                <img src={{asset('IMAGE/cuisiner.jpg')}} width=\"80%\">
+                                <img src={{asset('IMAGE/sqauat.jpg')}} width=\"80%\">
+                                <img src={{asset('IMAGE/basket.jpg')}} width=\"80%\">
                                 <img src={{asset('IMAGE/IMG11.png')}} width=\"80%\">
                                 <img src={{asset('IMAGE/IMGTRAVAIL.jpg')}} width=\"80%\">
                                 <img src={{asset('IMAGE/sunir.jpg')}} width=\"80%\">
-                                <img src={{asset('IMAGE/TRAVAILdequi.jpg')}} width=\"80%\">
-                                <img src={{asset('IMAGE/reseau.webp')}} width=\"80%\">
-                                <img src={{asset('IMAGE/biguesala.jpg')}} width=\"80%\">
-                                <img src={{asset('IMAGE/')}} width=\"80%\">
+                                <img src={{asset('IMAGE/visité.jpg')}} width=\"80%\">
+                                <img src={{asset('IMAGE/promener.jpg')}} width=\"80%\">
+                                <img src={{asset('IMAGE/IMG2.jpeg')}} width=\"80%\">
+                                
                             </div>
                         </a>
                     </p>
                     </div>
                     <div class=\"col-md-6 banner-desc lh-lg\">
                         <p class=\"text-capitalize py-3 redressed\">
-                            <i>voici quelques image qui refléte ma personnalité et ma joie de vivre,mes loisir mon travail en équipe  </i>
+                            <i>voici quelques images qui reflétent ma personnalité et ma joie de vivre,en quelques mots durant mes journée libres je cuisine pour faire passer le temps, faire un peu d'sport pour retrouver la forme se retrouver avec les amies pour changer d'idée discuter,je pratique du basket sa me passionne   </i>
                         </p>
                     </div>
                 </div>

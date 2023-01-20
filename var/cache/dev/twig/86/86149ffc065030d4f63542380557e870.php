@@ -337,8 +337,8 @@ class __TwigTemplate_09eb33b70da879984d396b230db26e96 extends Template
 \t</nav><br><br><br><br><br><br><br>
     <section class=\"education\" id=\"education\">
         <div class=\"\">
-            <div class=\"user\">
-                <p class=\"i\"><i>Salut je m'appel salamata sow, je suis étudiante en réseau et télécommunication.<br>Je suis trés intéressée par tous ce qui est réseau et systéme et<br> Je suis motivé ,autonome,dynamique ,fiable et doté d'une solide ethique professionnelle et d'une capacité à travaillé en équipe </i> </p>
+            <div class=\"user\"><br>
+                <p class=\"i\"><i>Salut je m'appel salamata sow, je suis étudiante en réseau et télécommunication.<br>Je suis trés intéressée par tous ce qui est réseau et systéme et Je suis motivé ,autonome,dynamique<br> ,fiable et doté d'une solide ethique professionnelle et d'une capacité à travaillé en équipe </i> </p>
                 <img src=";
         // line 311
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/SALA2.jpg"), "html", null, true);
@@ -846,8 +846,8 @@ class __TwigTemplate_09eb33b70da879984d396b230db26e96 extends Template
 \t</nav><br><br><br><br><br><br><br>
     <section class=\"education\" id=\"education\">
         <div class=\"\">
-            <div class=\"user\">
-                <p class=\"i\"><i>Salut je m'appel salamata sow, je suis étudiante en réseau et télécommunication.<br>Je suis trés intéressée par tous ce qui est réseau et systéme et<br> Je suis motivé ,autonome,dynamique ,fiable et doté d'une solide ethique professionnelle et d'une capacité à travaillé en équipe </i> </p>
+            <div class=\"user\"><br>
+                <p class=\"i\"><i>Salut je m'appel salamata sow, je suis étudiante en réseau et télécommunication.<br>Je suis trés intéressée par tous ce qui est réseau et systéme et Je suis motivé ,autonome,dynamique<br> ,fiable et doté d'une solide ethique professionnelle et d'une capacité à travaillé en équipe </i> </p>
                 <img src={{asset('IMAGE/SALA2.jpg')}}>
        
                   <div style=\"font-size: 15px;\" ><i>SALAMATA SOW</i></div>
