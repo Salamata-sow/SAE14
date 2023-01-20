@@ -189,18 +189,26 @@ class __TwigTemplate_17e5d42bcb6bfbdcce0661c9c6cc81dd extends Template
         echo " width=\"80%\">
                                 <img src=";
         // line 121
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/sunir.jpg"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/sport.PNG"), "html", null, true);
         echo " width=\"80%\">
                                 <img src=";
         // line 122
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/visité.jpg"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/IMG6.jpg"), "html", null, true);
         echo " width=\"80%\">
                                 <img src=";
         // line 123
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/promener.jpg"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/sunir.jpg"), "html", null, true);
         echo " width=\"80%\">
                                 <img src=";
         // line 124
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/visité.jpg"), "html", null, true);
+        echo " width=\"80%\">
+                                <img src=";
+        // line 125
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/promener.jpg"), "html", null, true);
+        echo " width=\"80%\">
+                                <img src=";
+        // line 126
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/IMG2.jpeg"), "html", null, true);
         echo " width=\"80%\">
                                 
@@ -318,7 +326,7 @@ class __TwigTemplate_17e5d42bcb6bfbdcce0661c9c6cc81dd extends Template
 
     public function getDebugInfo()
     {
-        return array (  298 => 28,  294 => 26,  284 => 25,  272 => 22,  267 => 20,  264 => 19,  254 => 18,  235 => 14,  204 => 124,  200 => 123,  196 => 122,  192 => 121,  188 => 120,  184 => 119,  180 => 118,  176 => 117,  172 => 116,  168 => 115,  164 => 114,  160 => 113,  75 => 30,  73 => 25,  70 => 24,  67 => 18,  61 => 14,  46 => 1,);
+        return array (  306 => 28,  302 => 26,  292 => 25,  280 => 22,  275 => 20,  272 => 19,  262 => 18,  243 => 14,  212 => 126,  208 => 125,  204 => 124,  200 => 123,  196 => 122,  192 => 121,  188 => 120,  184 => 119,  180 => 118,  176 => 117,  172 => 116,  168 => 115,  164 => 114,  160 => 113,  75 => 30,  73 => 25,  70 => 24,  67 => 18,  61 => 14,  46 => 1,);
     }
 
     public function getSourceContext()
@@ -443,6 +451,8 @@ class __TwigTemplate_17e5d42bcb6bfbdcce0661c9c6cc81dd extends Template
                                 <img src={{asset('IMAGE/basket.jpg')}} width=\"80%\">
                                 <img src={{asset('IMAGE/IMG11.png')}} width=\"80%\">
                                 <img src={{asset('IMAGE/IMGTRAVAIL.jpg')}} width=\"80%\">
+                                <img src={{asset('IMAGE/sport.PNG')}} width=\"80%\">
+                                <img src={{asset('IMAGE/IMG6.jpg')}} width=\"80%\">
                                 <img src={{asset('IMAGE/sunir.jpg')}} width=\"80%\">
                                 <img src={{asset('IMAGE/visité.jpg')}} width=\"80%\">
                                 <img src={{asset('IMAGE/promener.jpg')}} width=\"80%\">
