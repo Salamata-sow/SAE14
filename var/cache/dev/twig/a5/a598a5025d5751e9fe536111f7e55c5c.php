@@ -115,7 +115,7 @@ class __TwigTemplate_6f38c7ed998526d0d23ee2c776b02569 extends Template
 \t\t\t<div class=\"col-md-6\"> 
             </div>
 \t\t    <div class=\"col-md-6 banner-desc lh-lg\">
-\t\t\t\t<h1 class=\"text-capitalize py-3 redressed\"><p class=\"smal\" ><i>Hello, my name is salamata sow, student of BUT network telecommunication unleashing my motivation, autonomy, dynamism and reliability, with a 
+\t\t\t\t<h1 class=\"text-capitalize py-3 redressed\"><p class=\"smal\" ><i>Hello, my name is salamata sow,i am a student of BUT in  network telecommunication at Roanne, unleashing my motivation, autonomy, dynamism and reliability, with a 
                 strong professional ethic and team working skills.I love taking on challenges and pushing myself to do better</i></p>
 \t\t\t\t\t
 \t\t\t\t</h1>
@@ -239,7 +239,7 @@ class __TwigTemplate_6f38c7ed998526d0d23ee2c776b02569 extends Template
 \t\t\t<div class=\"col-md-6\"> 
             </div>
 \t\t    <div class=\"col-md-6 banner-desc lh-lg\">
-\t\t\t\t<h1 class=\"text-capitalize py-3 redressed\"><p class=\"smal\" ><i>Hello, my name is salamata sow, student of BUT network telecommunication unleashing my motivation, autonomy, dynamism and reliability, with a 
+\t\t\t\t<h1 class=\"text-capitalize py-3 redressed\"><p class=\"smal\" ><i>Hello, my name is salamata sow,i am a student of BUT in  network telecommunication at Roanne, unleashing my motivation, autonomy, dynamism and reliability, with a 
                 strong professional ethic and team working skills.I love taking on challenges and pushing myself to do better</i></p>
 \t\t\t\t\t
 \t\t\t\t</h1>
