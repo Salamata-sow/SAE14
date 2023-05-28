@@ -155,7 +155,7 @@ class __TwigTemplate_6f38c7ed998526d0d23ee2c776b02569 extends Template
                 <div class=\"box\">
                    <a href=\"/salamata/portfolio/monCV\">CV<img src=";
         // line 65
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/ADMI.jpg"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("IMAGE/CV.png"), "html", null, true);
         echo " alt=\"\"><a>
                 </div>
 
@@ -268,7 +268,7 @@ class __TwigTemplate_6f38c7ed998526d0d23ee2c776b02569 extends Template
                 </div>
 
                 <div class=\"box\">
-                   <a href=\"/salamata/portfolio/monCV\">CV<img src={{asset('IMAGE/ADMI.jpg')}} alt=\"\"><a>
+                   <a href=\"/salamata/portfolio/monCV\">CV<img src={{asset('IMAGE/CV.png')}} alt=\"\"><a>
                 </div>
 
             </div>

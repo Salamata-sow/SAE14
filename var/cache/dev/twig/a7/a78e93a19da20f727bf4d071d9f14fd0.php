@@ -183,7 +183,7 @@ class __TwigTemplate_44bb0dbf647b59be274bdf81f2f0e180 extends Template
 \t\t\t\t\t\t\t\t</p>
 \t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t</div>
-\t\t\t\t\t</div><br><br>
+\t\t\t\t\t</div>
 \t\t\t\t\t<div class=\"col d-sm-none d-md-block\">
                         <div class=\"card\">
 \t\t\t\t\t\t\t<div class=\"card-body\">
@@ -489,7 +489,7 @@ class __TwigTemplate_44bb0dbf647b59be274bdf81f2f0e180 extends Template
 \t\t\t\t\t\t\t\t</p>
 \t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t</div>
-\t\t\t\t\t</div><br><br>
+\t\t\t\t\t</div>
 \t\t\t\t\t<div class=\"col d-sm-none d-md-block\">
                         <div class=\"card\">
 \t\t\t\t\t\t\t<div class=\"card-body\">

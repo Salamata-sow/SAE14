@@ -390,7 +390,7 @@ class __TwigTemplate_09eb33b70da879984d396b230db26e96 extends Template
                 <i class=\"fa-solid fa-sword-laser\"></i>
                 <span style=\"font-size: 15px;\">Compétences</span>
 
-                <p ><br><li style=\"font-size: 13px;\">sur les pare-feux, les routeurs, les commutateurs et les équipements de réseau</li><br>
+                <p ><br><li style=\"font-size: 13px;\">sur les pare-feux,les commutateurs et les équipements de réseau</li><br>
                 <li style=\"font-size: 13px;\">Connaissance des architectures réseau, telles que LAN</li><br>
                 <li style=\"font-size: 13px;\">Capacité à travailler en équipe et à communiquer efficacement avec les membres de l'équipe technique et les utilisateurs finaux.</li><br>
                 <li style=\"font-size:13px\">Compétence en documentation et en gestion de projet.</li></p>
@@ -896,7 +896,7 @@ class __TwigTemplate_09eb33b70da879984d396b230db26e96 extends Template
                 <i class=\"fa-solid fa-sword-laser\"></i>
                 <span style=\"font-size: 15px;\">Compétences</span>
 
-                <p ><br><li style=\"font-size: 13px;\">sur les pare-feux, les routeurs, les commutateurs et les équipements de réseau</li><br>
+                <p ><br><li style=\"font-size: 13px;\">sur les pare-feux,les commutateurs et les équipements de réseau</li><br>
                 <li style=\"font-size: 13px;\">Connaissance des architectures réseau, telles que LAN</li><br>
                 <li style=\"font-size: 13px;\">Capacité à travailler en équipe et à communiquer efficacement avec les membres de l'équipe technique et les utilisateurs finaux.</li><br>
                 <li style=\"font-size:13px\">Compétence en documentation et en gestion de projet.</li></p>

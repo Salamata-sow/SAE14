@@ -2844,7 +2844,7 @@
     <service id="annotations.reader" class="Doctrine\Common\Annotations\AnnotationReader">
       <call method="addGlobalIgnoredName">
         <argument>required</argument>
-        <argument type="service" id="annotations.dummy_registry" on-invalid="ignore"/>
+        <argument type="service" id="annotations.dummy_registry" on-invalid="null"/>
       </call>
     </service>
     <service id="annotations.dummy_registry" class="Doctrine\Common\Annotations\AnnotationRegistry">
@@ -3883,7 +3883,12 @@
       <argument type="service" id="doctrine"/>
       <argument type="service" id="profiler"/>
     </service>
+    <service id="doctrine.dbal.default_schema_manager_factory" class="Doctrine\DBAL\Schema\DefaultSchemaManagerFactory"/>
+    <service id="doctrine.dbal.legacy_schema_manager_factory" class="Doctrine\DBAL\Schema\LegacySchemaManagerFactory"/>
     <service id="doctrine.dbal.default_connection.configuration" class="Doctrine\DBAL\Configuration">
+      <call method="setSchemaManagerFactory">
+        <argument type="service" id="doctrine.dbal.legacy_schema_manager_factory"/>
+      </call>
       <call method="setMiddlewares">
         <argument type="collection">
           <argument type="service">
@@ -4953,6 +4958,7 @@
     <service id="security.authentication.trust_resolver" class="Symfony\Component\Security\Core\Authentication\AuthenticationTrustResolver"/>
     <service id="security.authentication.session_strategy" class="Symfony\Component\Security\Http\Session\SessionAuthenticationStrategy">
       <argument>migrate</argument>
+      <argument type="service" id="security.csrf.token_storage" on-invalid="ignore"/>
     </service>
     <service id="security.authentication.session_strategy_noop" class="Symfony\Component\Security\Http\Session\SessionAuthenticationStrategy">
       <argument>none</argument>
@@ -7855,7 +7861,6 @@
     <service id="Symfony\Component\Notifier\NotifierInterface" alias="notifier"/>
     <service id="Symfony\Component\Mime\MimeTypesInterface" alias="mime_types"/>
     <service id="Symfony\Component\Mime\MimeTypeGuesserInterface" alias="mime_types"/>
-    <service id="Doctrine\DBAL\Driver\Connection" alias="doctrine.dbal.default_connection"/>
     <service id="Doctrine\DBAL\Connection" alias="doctrine.dbal.default_connection"/>
     <service id="Doctrine\Persistence\ManagerRegistry" alias="doctrine"/>
     <service id="Doctrine\Common\Persistence\ManagerRegistry" alias="doctrine"/>

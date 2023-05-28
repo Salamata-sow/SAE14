@@ -313,15 +313,19 @@ class AnnotationDriver extends CompatibilityAnnotationDriver
                     $discrColumnAnnot = $classAnnotations[Mapping\DiscriminatorColumn::class];
                     assert($discrColumnAnnot instanceof Mapping\DiscriminatorColumn);
 
-                    $metadata->setDiscriminatorColumn(
-                        [
-                            'name'             => $discrColumnAnnot->name,
-                            'type'             => $discrColumnAnnot->type ?: 'string',
-                            'length'           => $discrColumnAnnot->length ?? 255,
-                            'columnDefinition' => $discrColumnAnnot->columnDefinition,
-                            'enumType'         => $discrColumnAnnot->enumType,
-                        ]
-                    );
+                    $columnDef = [
+                        'name' => $discrColumnAnnot->name,
+                        'type' => $discrColumnAnnot->type ?: 'string',
+                        'length' => $discrColumnAnnot->length ?? 255,
+                        'columnDefinition' => $discrColumnAnnot->columnDefinition,
+                        'enumType' => $discrColumnAnnot->enumType,
+                    ];
+
+                    if ($discrColumnAnnot->options) {
+                        $columnDef['options'] = $discrColumnAnnot->options;
+                    }
+
+                    $metadata->setDiscriminatorColumn($columnDef);
                 } else {
                     $metadata->setDiscriminatorColumn(['name' => 'dtype', 'type' => 'string', 'length' => 255]);
                 }
@@ -696,8 +700,8 @@ class AnnotationDriver extends CompatibilityAnnotationDriver
     /**
      * Parses the given method.
      *
-     * @return callable[]
-     * @psalm-return list<callable-array>
+     * @return list<array{string, string}>
+     * @psalm-return list<array{string, (Events::*)}>
      */
     private function getMethodCallbacks(ReflectionMethod $method): array
     {

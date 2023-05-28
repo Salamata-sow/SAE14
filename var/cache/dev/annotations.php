@@ -54,6 +54,18 @@ return [[
 '[C]Symfony%5CBundle%5CFrameworkBundle%5CController%5CAbstractController%23addLink' => 1,
 'Symfony%5CBundle%5CFrameworkBundle%5CController%5CAbstractController%24container' => 0,
 '[C]Symfony%5CBundle%5CFrameworkBundle%5CController%5CAbstractController%24container' => 1,
+'App%5CController%5CSalamataPortfolioController' => 0,
+'[C]App%5CController%5CSalamataPortfolioController' => 1,
+'App%5CController%5CSalamataPortfolioController%23index' => 0,
+'[C]App%5CController%5CSalamataPortfolioController%23index' => 1,
+'App%5CController%5CSalamataPortfolioController%23CV' => 0,
+'[C]App%5CController%5CSalamataPortfolioController%23CV' => 1,
+'App%5CController%5CSalamataPortfolioController%23D%C3%A9couvrir' => 0,
+'[C]App%5CController%5CSalamataPortfolioController%23D%C3%A9couvrir' => 1,
+'App%5CController%5CSalamataPortfolioController%23Formulaire' => 0,
+'[C]App%5CController%5CSalamataPortfolioController%23Formulaire' => 1,
+'App%5CController%5CSalamataPortfolioController%23eportfolio' => 0,
+'[C]App%5CController%5CSalamataPortfolioController%23eportfolio' => 1,
 'Doctrine%5CBundle%5CDoctrineBundle%5CController%5CProfilerController' => 0,
 '[C]Doctrine%5CBundle%5CDoctrineBundle%5CController%5CProfilerController' => 1,
 'Doctrine%5CBundle%5CDoctrineBundle%5CController%5CProfilerController%23__construct' => 0,
@@ -602,6 +614,6 @@ return [[
 ], [
 
 0 => [],
-1 => 1673683010,
+1 => 1685224571,
 
 ]];
