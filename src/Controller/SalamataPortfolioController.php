@@ -8,14 +8,14 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class SalamataPortfolioController extends AbstractController
 {
-    #[Route('/salamata/portfolio', name: 'app_salamata_portfolio')]
+    #[Route('/', name: 'app_salamata_portfolio')]
     public function index(): Response
     {
         return $this->render('salamata_portfolio/index.html.twig', [
             'controller_name' => 'SalamataPortfolioController',
         ]);
     }
-    #[Route('/salamata/portfolio/monCV')]
+    #[Route('/monCV')]
     public function CV(): Response
     {
         $CV = random_int(0, 100);
@@ -24,7 +24,7 @@ class SalamataPortfolioController extends AbstractController
             'CV_name' => 'Je vous présente mon cv'
         ]);
     }
-    #[Route('/salamata/portfolio/MesHobies')]
+    #[Route('/MesHobies')]
     public function Découvrir(): Response
     {
         $CV = random_int(0, 100);
@@ -33,7 +33,7 @@ class SalamataPortfolioController extends AbstractController
             'Découvrir_name' => 'Je vous présente mon cv'
         ]);
     }
-    #[Route('/salamata/portfolio/formulaire')]
+    #[Route('/formulaire')]
     public function Formulaire(): Response
     {
         $CV = random_int(0, 100);
@@ -42,7 +42,7 @@ class SalamataPortfolioController extends AbstractController
             'Formulaire_name' => 'Pour avoir mon cv remplissait les champs'
         ]);
     }
-    #[Route('/salamata/portfolio/MYEportfolio')]
+    #[Route('/MYEportfolio')]
     public function eportfolio(): Response
     {
         $CV = random_int(0, 100);
